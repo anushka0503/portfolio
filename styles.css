@@ -1,0 +1,242 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat' , sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html,body  {
+width: 100%;
+height: 100%;
+margin: 0px;
+padding: 0px;
+overflow-x: hidden;
+}
+
+.navbar-custom{
+background-color: black;
+}
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text { 
+    color:white; 
+} 
+
+/* .navbar-custom .navbar-brand{
+  font-size: 20px;
+} */
+.navbar-nav > li{
+  padding-left:7px;
+  padding-right:7px;
+}
+
+@media (min-width: 992px){
+  .navbar li {
+      margin-left : 7px;
+      margin-right : 7px;
+  }
+}
+
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Elon-Musk.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+.container{
+  margin: 78px;
+}
+
+
+.about-img{
+  width: 530px;
+  height: 500px;
+}
+ 
+  .card-deck{
+    margin: 10px;
+  }
+
+  .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+
+  .card-image-top{
+    height: 240px;
+  }
+
+  #testimonials{
+    text-align: center;
+  }
+  .testimonials-image{
+    width: 35%;
+    border-radius: 100%;
+    margin:0 20px 20px 20px ;
+  }
+
+  .description{
+    font-weight: bold;
+    font-size: larger;
+  }
+  .carousel-item{
+    padding: 3% 15%;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 150px;
+    width: 70px;
+    background-size: 100%, 100%;
+    border-radius: 40%;
+    background-image: none;
+  }
+  
+  .carousel-control-next-icon:after
+  {
+    content: '>';
+    font-size: 55px;
+    color: darkgray;
+  }
+  
+  .carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color:darkgray;
+  }
+
+  .card-img{
+height: 250px;
+  }
+  .card-img-overlay{
+height: 250px;
+  }
+
+
+  h5{
+    font-weight: bold;
+  }
+  a{
+    color: #ddd;
+  }
+.footer{
+  color: #ddd;
+  background-color: black;
+}
+.column{
+  width: 33.33%;
+  justify-content: center;
+  text-align: center;
+}
+
+.links{
+  padding:20px;
+}
+.links a{
+  margin-left: 20px;
+}
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.container{width: 100%;}
+.about-img{width: 100%;}
+.col-lg-8{width: 100%;}
+.card{width: 100%;}
+}
+
+.image{
+  width: 400px;
+  height: 300px;
+  }
+      .gallery-block.grid-gallery{
+        padding-bottom: 60px;
+        padding-top: 4px;
+      }
+  
+      .gallery-block.grid-gallery .heading{
+          margin-bottom: 70px;
+          text-align: center;
+      }
+  
+      .gallery-block.grid-gallery .heading h2{
+          font-weight: bold;
+          font-size: 1.4rem;
+          text-transform: uppercase;
+      }
+  
+      .gallery-block.grid-gallery a:hover{
+        opacity: 0.8;
+      }
+  
+      .gallery-block.grid-gallery .item img{
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+        transition: 0.4s;
+      }
+  
+      .gallery-block.grid-gallery .item{
+        margin-bottom: 20px;
+      }
+  
+      @media (min-width: 576px) {
+  
+        .gallery-block.grid-gallery .scale-on-hover:hover{
+          transform: scale(1.05);
+          box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+        }
+      }
+
+#about{
+margin-top: 150px;
+}
+
+#work{
+  margin-top: 150px;
+}
+#testimonials{
+margin-top: 150px;
+}
+
+#news{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.image-bio{
+  width: 100%;
+  height: 500px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+.content{
+  font-weight: bolder;
+  line-height: 2rem;
+}
